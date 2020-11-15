@@ -1,63 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>E-comerce website</title>
-	<link rel="stylesheet" href="styles.css">
-	<script src="https://kit.fontawesome.com/yourcode.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/366e4574a2.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="container">
-    <div class="social-media">
-		<ul class="item-icons">
-			
-		   <li class="fb-icon"><img   class="icons-img" src="https://i.pinimg.com/originals/b7/63/69/b763699fd1fa3bfb374442593ae642e1.png" width="30px" height="30px" alt="facebook"> </li>
-			<li class="fb-icon"><a href="#"><img class="icons-img" src="https://i.pinimg.com/originals/63/9b/3d/639b3dafb544d6f061fcddd2d6686ddb.png" width="30px" height="30px" alt="facebook"> </a></li>
-			<li class="fb-icon"><a href="#"><img class="icons-img" src="https://cdn3.iconfinder.com/data/icons/picons-social/57/43-twitter-512.png" width="30px" height="30px" alt="facebook"> </a></li>
-		 </ul>
-		 </div>
-		 
-			 <span class="addres">
-				<img src="https://p7.hiclipart.com/preview/826/886/420/iphone-computer-icons-telephone-call-phone-call-icon.jpg" width="12px" height="16px" alt=""> 
-			   +(998) 99 100 50 60
-			   <img src=https://cdn2.iconfinder.com/data/icons/social-icons-circular-color/512/gmail-512.png width="12px" height="16px" alt=""> 
-			   Shop@yourdomain.com
-			</span>
-		 </div>
-		 <header>
-		 <div class="big-menu">
-			 <div class="text-logo">
-				 <h1 class="text-header">
-				 Selling <em>...</em>Enjoy with your Shopping
-				 </h1>
-			 </div>
-			 <ul class="list-items">
-            <li class="list-item">
-				<a href="#">Home</a>
-				<a href="page2.html">Products</a>
-				<a href="#">About Us</a>
-				<a href="#">Special</a>
-				<a href="#">Testimonials</a>
-				<a href="#">Blog</a>
-				<a href="#">Contact</a>
-			</li>
-			 </ul>
-		 </div>
-	
-</header>
+ <nav class="nav">
+ <div class="nav-bar">
+     <div class="logo-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram-square"></i>
+        <i class="fab fa-twitter-square"></i>
+        <div class="logo-text1">
+            <a class="text-link" href="#"> Selling <em>.</em> Shop</a> 
+        </div>
+       
 
-<main class="main-content" >
- <div class="header-main">
-	 <h2 class="slogan">Shop with us</h1>
-		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br>	Magnam commodi at ut laudantium. Ullam ut saepe fugiat nisi, dolore voluptatibus!</p>
- </div>
- <div class="btn">
-<a class="btn-shop" href="#">SHOP NOW</a>
-<a class="btn-club" href="#">CLUB MEMBERSHIP</a>
- </div>
+     </div>
+ <ul class="nav-items">
+    <li><a class="list-item" href="#">Home</a></li>
+    <li><a class="list-item" href="page2.html">Products</a></li>
+    <li><a class="list-item" href="#">About Us </a></li>
+    <li><a class="list-item"href="#">Special</a></li>
+    <li><a class="list-item"href="#">Testimonials</a></li>
+    <li><a class="list-item"href="#">Blog</a></li>
+    <li><a class="list-item"href="#">Contact</a></li>
+    
+    
+        </ul>
+    </div>    
+</nav>
+
+
  
+<main class="main">
+    
+<div class="slogan">
+    <i class="fas fa-shopping-cart">
+      </i>
+    <h1 id="slogan-text">Shop with us</h1>
+
+    <p id="sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </br> Est sed cupiditate exercitationem dolorum delectus libero!</p>
+<div class="buttons">
+    <a class="btn-shop" href="#">Shop Now</a>
+    <a class="btn-member" href="#">Membership</a>
+    
+
+</div>
+    
+
+</div>
+
+    
 </main>
-	
+
+<footer class="footer">
+    
+    <div class="form-title">Please fill this form to sign up</div>
+    <form class="form-container">
+       
+        
+        <input type="text" class="name formEntry" placeholder="Name" />
+        <input type="text" class="email formEntry" placeholder="Email"/>
+        <textarea class="message-box" placeholder="Message"></textarea>
+        <input type="checkbox" class="termsConditions" value="Term">
+        <label style="color: rgb(243, 239, 239)" for="terms"> I Accept the <span style="color: #6db890">Terms of Use</span> & <span style="color: #afbeb6">Privacy Policy</span>.</label><br>
+        <button class="submit formEntry" onclick="thanks()">Submit</button>
+      </form>
+
+
+
+
+
+
+</footer>
+
+
+
+
 </body>
 </html>
