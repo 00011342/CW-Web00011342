@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-
+    box-sizing: border-box;
   
 }
 
@@ -229,7 +229,7 @@ padding: 40px;
 }
 
 
-/** Page 2 (Products)*/
+                    /** Page 2 (Products)*/
 
 body{
 background-image: linear-gradient(to top, #d1d3d4, #b5bcc2);
@@ -311,18 +311,18 @@ padding-left: 20%;
 }
 .btn-shopping a{
   text-decoration: none;
-  border-radius: 12px;
-  border: 2px solid rgb(233, 233, 233);
+  border-radius: 7px;
+  border: 1px solid rgb(0, 0, 0);
   padding: 8px;
-  background-color:rgb(193, 194, 218);
-  color:rgb(20, 17, 17);
+  background-color:rgb(131, 131, 131);
+  color:white;
   font-weight:900;
 }
   
 
 .btn-shopping a:hover{
-  background-color:black;
-  color: white;
+  background-color:white;
+  color:black;
 
 }
 
@@ -363,7 +363,7 @@ padding-left: 20%;
 }
 
 
-/*page 3 (About Us)*/
+                    /*page 3 (About Us)*/
 
 .img-slogan{
 max-height:70vh;
@@ -540,5 +540,106 @@ color: rgb(107, 102, 102);
 
       
  
-       /*page5 (Testimotionals) */
+/*page5 (Testimotionals) */
 
+.container5{
+display: grid;
+grid-template-columns: 1fr 1fr;
+text-align: center;
+margin-left: 15%;
+margin-top: 7%;
+margin-bottom: 5%;
+grid-gap: 4.5em;
+width:70vw;
+padding: 15px;
+
+background-color: rgb(161, 172, 172);
+}
+.test1{
+  background-color:rgb(88, 107, 107);
+  border-radius: 10px;
+}
+.test2{
+  background-color:rgb(88, 107, 107);
+border-radius: 10px;
+}
+#test3{
+background-color:rgb(88, 107, 107);
+margin-left: 50%;
+width: 30vw;
+border-radius: 10px;
+}
+.tester-img{
+border-radius: 50%;
+padding-top: 10px;
+
+}
+.tester-point{
+line-height: 2;
+color: #e2dfdf;
+font-style: italic;
+}
+.tester-name{
+padding-bottom: 10px;
+color:#28254b;
+
+}
+.test-slogans{
+text-align: center;
+padding-top: 40px;
+font-size: 1.5em;
+font-style: oblique;
+}
+#small-slogan{
+padding-bottom: 25px;
+color:rgb(110, 106, 106);
+
+}
+ 
+
+ /*page 6 (Blog Page)*/
+                 
+ .main6{
+display: flex;
+background-color: rgb(161, 172, 172);
+margin: 5%;
+text-align: center;
+padding: 20px;
+line-height: 1.5;
+border-radius: 2%;
+ }      
+ .blog-img{
+   border-radius: 4%;
+ }        
+  .blog-text{
+margin-top: 20px;
+background-color: rgb(172, 172, 175);
+  } 
+  .para6{
+font-weight: bold;
+font-size: 1.2em;
+padding-bottom: 5px;
+  }
+.blog-date{
+padding-bottom: 25px;
+padding-right: 40px;
+color: #4d3e3e;
+}
+#dot{
+font-size: 1.5em;
+text-align:center ;
+}
+.click-news, .click-reading{
+  text-decoration: none;
+  color: #9e3f0c;
+}
+ #para10{
+  padding-bottom: 10px;
+  color:  #312626;
+}
+.click-reading:hover{
+  color: #5e0303;
+}
+.click-news:hover{
+  color: #5e0303;
+}
