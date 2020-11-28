@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to ZaraSam</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/366e4574a2.js" crossorigin="anonymous"></script>
 </head>
@@ -15,19 +16,19 @@
         <i class="fab fa-instagram-square"></i>
         <i class="fab fa-twitter-square"></i>
         <div class="logo-text1">
-            <a class="text-link" href="#"> Selling <em>.</em> Shop</a> 
+            <a class="text-link" href="#"> Selling<em>.</em></a> 
         </div>
        
 
      </div>
  <ul class="nav-items">
-    <li><a class="list-item" href="#">Home</a></li>
+    <li><a class="list-item" href="index.html">Home</a></li>
     <li><a class="list-item" href="page2.html">Products</a></li>
-    <li><a class="list-item" href="#">About Us </a></li>
-    <li><a class="list-item"href="#">Special</a></li>
-    <li><a class="list-item"href="#">Testimonials</a></li>
-    <li><a class="list-item"href="#">Blog</a></li>
-    <li><a class="list-item"href="#">Contact</a></li>
+    <li><a class="list-item" href="page3.html">About Us </a></li>
+    <li><a class="list-item"href="page4.html">Services</a></li>
+    <li><a class="list-item"href="page5.html">Testimonials</a></li>
+    <li><a class="list-item"href="page6.html">Blog</a></li>
+    <li><a class="list-item"href="Report.docx.pdf">Report</a></li>
     
     
         </ul>
@@ -43,7 +44,7 @@
       </i>
     <h1 id="slogan-text">Shop with us</h1>
 
-    <p id="sub-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. </br> Est sed cupiditate exercitationem dolorum delectus libero!</p>
+    <p id="sub-text">We see our customers as invited guests to a party, and we are the hosts. It’s our job every day to make every important aspect of the customer experience a little bit better </p>
 <div class="buttons">
     <a class="btn-shop" href="#">Shop Now</a>
     <a class="btn-member" href="#">Membership</a>
@@ -58,21 +59,26 @@
 </main>
 
 <footer class="footer">
-    
+     
     <div class="form-title">Please fill this form to sign up</div>
     <form class="form-container">
        
-        
+        <div id="form"> 
         <input type="text" class="name formEntry" placeholder="Name" />
         <input type="text" class="email formEntry" placeholder="Email"/>
         <textarea class="message-box" placeholder="Message"></textarea>
         <input type="checkbox" class="termsConditions" value="Term">
-        <label style="color: rgb(243, 239, 239)" for="terms"> I Accept the <span style="color: #6db890">Terms of Use</span> & <span style="color: #afbeb6">Privacy Policy</span>.</label><br>
+        <label style="color: rgb(243, 239, 239)" for="terms"> I Accept the <span style="color: #424d47">Terms of Use</span> & <span style="color: #427258">Privacy Policy</span>.</label><br>
         <button class="submit formEntry" onclick="thanks()">Submit</button>
       </form>
+    </div>
 
-
-
+ <div class="wrapper-text">
+     <h1 id="Disclaimer">“This website was created to fulfill Web Technology module’s requirements and does not
+        represent an actual company or service”.</h1>
+        <h6 id="copyright">Copyright © 2020 | Powered by VisualStudio
+        </h6>
+ </div>
 
 
 
@@ -80,6 +86,6 @@
 
 
 
-
+<script src="DOM.js"></script>
 </body>
 </html>
