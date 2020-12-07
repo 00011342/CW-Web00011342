@@ -48,7 +48,7 @@
 <div class="buttons">
     <a class="btn-shop" href="#">Shop Now</a>
     <a class="btn-member" href="#">Membership</a>
-    
+   
 
 </div>
     
@@ -61,17 +61,19 @@
 <footer class="footer">
      
     <div class="form-title">Please fill this form to sign up</div>
+    <p class="err"></p>
     <form class="form-container">
        
-        <div id="form"> 
-        <input type="text" class="name formEntry" placeholder="Name" />
+       
+        <input type="text" input="name formEntry" placeholder="Name" />
         <input type="text" class="email formEntry" placeholder="Email"/>
         <textarea class="message-box" placeholder="Message"></textarea>
         <input type="checkbox" class="termsConditions" value="Term">
         <label style="color: rgb(243, 239, 239)" for="terms"> I Accept the <span style="color: #424d47">Terms of Use</span> & <span style="color: #427258">Privacy Policy</span>.</label><br>
-        <button class="submit formEntry" onclick="thanks()">Submit</button>
+        <button class="submit-formEntry">Submit</button>
+        
       </form>
-    </div>
+    
 
  <div class="wrapper-text">
      <h1 id="Disclaimer">“This website was created to fulfill Web Technology module’s requirements and does not
@@ -85,7 +87,7 @@
 </footer>
 
 
-
-<script src="DOM.js"></script>
 </body>
+<script src="validateForm.js"></script>
+
 </html>
