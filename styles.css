@@ -79,26 +79,21 @@ li .list-item{
 text-decoration: underline;
 
 }
-
-.logo-icons i{
-    padding: 15px;
-   font-size: 30px;
-   color: rgb(2, 2, 7);
-   cursor: pointer;
+#nav-icons{
+  padding: 10px;
+cursor: pointer;
+max-width: 50px;
+align-items: baseline;
+margin-top:6px;
 }
-.logo-icons i:hover{
-color: rgb(62, 70, 187);
-transition: 1s ease;
-
+.logo-icons img:hover{
+ color: tomato;
 }
 .slogan{
     display:block;
    margin: 7%;
 }
-.slogan > .fas{
-    color: rgb(5, 5, 49);
-    font-size: 6em;
-    
+ #cart-shop{
   animation-name: fly;
   animation-duration: 4s;
   animation-iteration-count: infinite;
@@ -108,11 +103,9 @@ transition: 1s ease;
   animation-direction: alternate;
 
 }
-.fas:hover{
+#cart-shop:hover{
     animation-play-state: paused;
-    color: rgb(107, 99, 163);
-    
-}
+    }
 
 @keyframes fly {
     from {
@@ -125,19 +118,25 @@ transition: 1s ease;
   }
   
 .logo-text1{
-    display: inline-table;
-    font-size:1.5em ;
-  
+    display: inline;
+    font-size:1.6em ;
+  font-weight: 900;
+
     }
+
     em{
-        color: red;
-        font-size: 2em;
+        color: rgb(87, 43, 43);
+        font-size: 1.7em;
     }
     .text-link{
         text-decoration: none;
-        color: lightyellow;
+        color: rgb(90, 97, 81);
+        font-style: oblique;
+        letter-spacing: 5px;
     }
-
+.logo-text1 a:hover{
+  color: rgb(136, 100, 100)
+}
 
   
 .slogan{
@@ -156,11 +155,11 @@ text-shadow: 1px 1px 2px black, 0 0 25px rgb(109, 109, 185), 0 0 5px rgb(152, 15
 }
 
 #sub-text{
-font-size: 1em;
+font-size: 1.2em;
 line-height: 1.5;
-color: white;
 max-width: 60%;
-
+font-style: oblique;
+font-weight: 600;
 }
 .buttons a{
     text-decoration: none;
@@ -255,6 +254,7 @@ background-color: #a8bdc5;
   transition: transform .2s;
   border-radius: 10px;
   cursor: pointer;
+margin-bottom: 20px;
 
 }
 .model-img:hover{
@@ -264,10 +264,15 @@ background-color: #a8bdc5;
   
   
 }
-.caption1.fas{
-  
-  font-size: 30px;
-  
+
+#icons-img{
+  background-color:transparent;
+  max-width: 17px;
+  max-height: 17px;
+ 
+}
+.icon-products{
+  word-spacing: 10px;
 }
 
 .products-container{
@@ -275,7 +280,7 @@ background-color: #a8bdc5;
   grid-template-columns: 1fr 1fr 1fr;
   margin-left: 20%;
   row-gap: 5em;
-  column-gap: 6em;
+  column-gap: 8em;
   padding-top: 5%;
   padding-bottom: 10%;
  
@@ -283,6 +288,7 @@ background-color: #a8bdc5;
 .item1 img{
   height: 215px;
   background-color: whitesmoke;
+  
 }
 .item4 img{
   height:250px ;
@@ -290,17 +296,12 @@ background-color: #a8bdc5;
 }
 .item2 img{
   width:310px;
-  margin-right:5em;
-  margin-top:8%;
+  margin-right:em;
+  margin-top:4.5%;
   
 
 }
-#yellow{
-  color:rgb(167, 167, 43);
-}
-#red{
-  color:rgb(179, 69, 69);
-}
+
 
 .item6 img{
   height: 255px;
@@ -353,7 +354,7 @@ padding-left: 20%;
 }
 .sub-titles{
   text-align: center;
-  
+
   
 }
 
@@ -424,7 +425,7 @@ h2 {
 
 .selected::after {
   content: "";
-  background-image:url(/img/drop-down.svg) ;
+  background-image:url(/icons/drop-down.svg) ;
   background-size: contain;
    background-repeat: no-repeat;
   position: absolute;
@@ -479,14 +480,16 @@ filter: drop-shadow();
 
 
 }
+
 .flex-container{
 display: flex;
 align-items: center;
 margin-left: 10em;
-margin-top: 4em;
+margin-top: 4.5em;
 width: 80vw;
 height: 80vh;
 margin-bottom:10% ;
+height: 80%;
 }
 #box2{
 margin-left: 7em;
@@ -552,6 +555,10 @@ background-color: white;
 grid-area: footer3;
 
 }
+#product-icons{
+  width: 40px;
+  height: 40px;
+}
 .main3{
  background-image:url(https://static.zara.net/photos///contents/mkt/spots/aw20-north-new-in-woman/subhome-xmedia-46//w/1440/landscape_0.jpg?ts=1605274178928);
  opacity: 0.9;
@@ -608,11 +615,7 @@ display: grid;
   grid-gap:5em;
   line-height: 1.5;
 }
-.service-item1 i {
-font-size: 2em;
-color: #f16821;
 
- }
  .para4  {
    margin-left: 60px;
    margin-bottom: 10px;
@@ -760,7 +763,13 @@ text-align:center ;
   line-height: 0;
 
   }
-  
+  #product-icons{
+    width: 20px;
+    height: 20px;
+  }
+  .para4 {
+    margin-left: 30px;
+  }
   .form-container{
    display: block; 
     max-width: 40%;
@@ -780,9 +789,9 @@ text-align:center ;
   #slogan-text{
     font-size: 2em;
   }
-  .slogan > .fas{
+  #cart-shop{
     animation: none;
-    color: rgb(126, 86, 163);
+   margin-left: 50px;
   }
   .buttons a{
     font-size:20px ;
@@ -889,28 +898,37 @@ font-size: 10px;
 .blog-text{
   background-color:#97b6c2;
     } 
-
+    .logo-text1{
+      font-size: 15px;
+    }
 }
+
 
                    /* Tablets (portrait) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
     
 
-.slogan > .fas{
-  animation: none;
-  color: rgb(126, 86, 163);
-}
+
 .form-container{
-  display: block; 
-   max-width: 40%;
-   margin-left:25px;
- 
+ margin-left:25px;
+ align-items: center;
  }
+ #cart-shop{
+  animation: none;
+
+}
+ #product-icons{
+  width: 20px;
+  height: 20px;
+}
  .slogan{
-   margin-top: 15em;
+   margin-top: 25em;
  }
  #slogan-text{
   font-size: 5em;
+}
+.logo-text1{
+  font-size: 20px;
 }
 .products-container{
   display: grid;
@@ -950,9 +968,6 @@ font-size: 13px;
   background-size: contain;
 width: 100vw;
 height:50vh;
-
-
-
 }
 #demo{
   font-size: 2em;
